@@ -1,7 +1,7 @@
 from __future__ import annotations
 import abc
 from typing import Any
-
+"""test"""
 
 class Builder(metaclass=abc.ABCMeta):
 	def product(self):
