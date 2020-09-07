@@ -5,6 +5,7 @@ from typing import Any
 """test complete"""
 
 
+
 class Builder(metaclass=abc.ABCMeta):
     def product(self):
         pass
