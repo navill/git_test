@@ -4,9 +4,7 @@ from typing import Any
 
 """test complete"""
 """git_test-10: test issue"""
-
-
-
+diaskldfjjaser
 class Builder(metaclass=abc.ABCMeta):
     def product(self):
         pass
@@ -34,7 +32,6 @@ class Builder(metaclass=abc.ABCMeta):
 
 class ConcreteBuilder(Builder):
     def __init__(self) -> None:
-
         def reset(self) -> None:
             self._product = Product()
 
@@ -47,11 +44,12 @@ class ConcreteBuilder(Builder):
         self._product.add('part_A')
 
     def product_part_b(self) -> None:
-
         def product_part_c(self) -> None:
             pass
+
         def product_part_d(self) -> None:
             pass
+
         def product_part_e(self) -> None:
             self._product.add('part_E')
 
