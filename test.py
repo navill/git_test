@@ -5,7 +5,7 @@ from typing import Any
 """test complete"""
 """git_test-10: test issue"""
 diaskldfjjaser
-class Builder(metaclass=abc.ABCMeta):
+ㅇclass Builder(metaclass=abc.ABCMeta):
     def product(self):
         pass
 
